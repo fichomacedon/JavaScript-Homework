@@ -2,10 +2,13 @@ console.log("Say hello")
 let userInput=prompt("Type in year of birth")
 let typedInValue=Number(userInput)
 let result=(typedInValue-4)%12
+let ifNumberIsInvalid=Number.isNaN(typedInValue)
 console.log(userInput,typedInValue,result,)
 if(result===0){
     console.log("Your Zodiac is Rat");
-} else if(result===1){
+} else if(ifNumberIsInvalid){
+    console.log("Type a valid number");
+}else if(result===1){
     console.log("Your Zodiac is Ox");
 } else if(result===2){
     console.log("Your Zodiac is Tiger")
