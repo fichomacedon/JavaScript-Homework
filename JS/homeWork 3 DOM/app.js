@@ -1,9 +1,7 @@
 console.log("it is working")
 
 const containerSelectorEl=document.querySelector(".container")
-const mainHeadingEl=document.querySelector("#main-heading")
-const secondaryHeadingEl=document.querySelector(".ingredients")
-const ingredientListEl=document.querySelector(".list-ingredients")
+
 
 let recipeName = prompt("Enter the name of the recipe:");
 
@@ -29,4 +27,3 @@ ingredientsList += "</ul>";
 
 containerSelectorEl.innerHTML = ingredientsList;
 
-document.body.appendChild(containerSelectorEl);
