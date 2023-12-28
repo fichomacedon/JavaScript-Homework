@@ -43,16 +43,11 @@ function generateTableRow(number, table) {
       return;
     }
 
-    // const inputColsElValue = Number(inputColsEl.value);
-
-    // if (Number.isNaN(inputColsElValue) || inputColsElValue <= 0) {
-    //   errorMsgEl.innerText = "Invalid Number of Ingredients Input";
-    //   return;
-    // }
+   
   
     
     generateTableRow(inputRowsElValue, dynTableEl);
-    // generateTableColumn(inputColsElValue, dynTableEl)
+    
   })
 
   function generateTableColumn(number, table) {
