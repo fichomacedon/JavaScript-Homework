@@ -1,0 +1,107 @@
+*, *::before, *::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+  }
+
+  body {
+    padding: 50px;
+    font-family: "Courier New";
+    font-size: 16px;
+    background-color: #141514;
+    
+  }
+  
+  #calculator {
+    width: 332px;
+    padding: 10px;
+    margin: auto;
+    background-color: #F2F0EB;
+    font-size: 18px;
+    border: solid 1px #B5BAB6;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 0px #212121;
+    display: none;
+  }
+  .position {
+   
+    margin-left: 500px;
+    border: solid 5px rgb(221, 213, 213);
+    border-radius: 2%;
+
+    width: 325px;
+  }
+  
+  #display {
+    
+    display: grid;
+    border-bottom: solid 3px #f2e8e8;
+    border-radius: 5px;
+    height: 90px;
+    color: #3c3a3a;
+    
+  }
+  
+  #display input {
+    display: block;
+    text-align: right;
+    padding: 8px 7px;
+    background: none;
+    font-size: 15px;
+    color: #ecf2ec;
+    border: none;
+    background-color: #42413f;
+  }
+  
+  #display output {
+    display: block;
+    text-align: right;
+    padding: 0px 5px;
+    background: none;
+    font-weight: bold;
+    font-size: 32px;
+    overflow: auto;
+    color: #070707;
+    background-color: #42413f;
+  }
+  
+  #numpad {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding-top: 10px;
+    color: #ecf2ec;
+    
+  }
+  
+  #numpad button {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    font-family: inherit;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #B5B1B6;
+    color: #ecf2ec;
+  }
+
+  #numpad button:hover {
+    background: linear-gradient(120deg, #6d726e, #E1E3E1);
+  }
+  
+  #numpad button.operator {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #009499;
+    color: #F2F0EB;
+  }
+  
+  #numpad button.operator:hover {
+    background: linear-gradient(120deg, #212121, #009499);
+  }
+  
