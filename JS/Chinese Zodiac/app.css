@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+
+.headline {
+    display: flex;
+    margin-left: 40%;
+    padding-top: 200px;
+    
+}
